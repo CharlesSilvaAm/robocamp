@@ -36,6 +36,9 @@ Fill Start Date
         Keyboard Key    press    ${number}
     END
 
+Submmit Enroll Form
+    Click        css=button >> text=Salvar
+
 
     # Garimpar HTML que seja dificil de especionar atravéz do log - Colar no Code Beautify
     # ${temp}      Get Page Source

@@ -30,10 +30,10 @@ Fill Start Date
     
     ${start_date}     Get Start Date
 
-    Log    ${start_date}    
+    Log    ${start_date} 
     
     FOR    ${number}    IN   @{start_date}
-        Keyboard Key    press    ${number}
+        Keyboard Key     press    ${number}
     END
 
 Submmit Enroll Form

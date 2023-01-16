@@ -7,7 +7,6 @@ Resource    ../base.resource
 Get Service Token
     [Arguments]        ${user}
     
-    
     ${response}    POST          http://localhost:3333/sessions
     ...           json=${user}
     ...           expected_status=200
